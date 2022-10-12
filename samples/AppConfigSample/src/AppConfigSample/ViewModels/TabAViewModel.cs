@@ -73,7 +73,7 @@ namespace AppConfigSample.ViewModels
             try
             {
                 Foo = _configurationManager.AppSettings["foo"];
-                Bar = _configurationManager.AppSettings["bar"];
+                Bar = _configurationManager.AppSettings["foo2"];
                 Test = _configurationManager.ConnectionStrings["test"].ConnectionString;
                 Environment = _configurationManager.AppSettings["Environment"];
             }
